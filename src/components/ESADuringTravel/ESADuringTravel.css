@@ -1,0 +1,113 @@
+section.ESADuringTravelWrap {
+  padding: 60px 0;
+  background: var(--WhiteColor);
+}
+section.ESADuringTravelWrap .h1 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.ESADuringTravelWrap .h1:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.ESADuringTravelWrap .h2 {
+  font-size: 21px;
+  color: #3a3a3a;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  width: 100%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+section.ESADuringTravelWrap p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+}
+section.ESADuringTravelWrap .text-center p {
+  text-align: center;
+}
+section.ESADuringTravelWrap .contentbx {
+  border: 1px solid #e3e3e3;
+  -webkit-box-shadow: 0px 0px 15px 9px rgb(0 150 136 / 5%);
+  box-shadow: 0px 0px 15px 9px rgb(0 150 136 / 5%);
+  -webkit-transition: background 0.4s 0.5s;
+  -o-transition: background 0.4s 0.5s;
+  transition: background 0.4s 0.5s;
+  padding: 25px 25px;
+  position: relative;
+  background: var(--WhiteColor);
+  margin-top: 215px;
+}
+section.ESADuringTravelWrap li {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+  line-height: 30px;
+}
+
+section.ESADuringTravelWrap .imgbx {
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  margin: 15px auto;
+  border-radius: 50%;
+  border: 3px solid var(--WhiteColor);
+  position: relative;
+  -webkit-box-shadow: 4px 3px 0px #4fe3b1, 0px 0px 12px #cbcbcb;
+  box-shadow: 4px 3px 0px #4fe3b1, 0px 0px 12px #cbcbcb;
+  margin: -216px auto 15px;
+}
+.ESADuringTravelWrap img {
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 100%;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 600px) {
+  section.ESADuringTravelWrap .imgbx {
+    text-align: center;
+    width: 224px;
+    height: 224px;
+  }
+  section.ESADuringTravelWrap {
+    padding: 40px 0;
+  }
+  section.ESADuringTravelWrap .h1 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  section.ESADuringTravelWrap .h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+  section.ESADuringTravelWrap p,
+  section.ESADuringTravelWrap li {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media only screen and (min-device-width: 1400px) {
+}

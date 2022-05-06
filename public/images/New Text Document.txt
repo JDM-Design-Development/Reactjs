@@ -1,0 +1,4 @@
+https://developer.wordpress.org/rest-api/reference/
+https://www.youtube.com/watch?v=fFNXWinbgro&list=PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb&index=14
+https://myesadoctor.com/wp-json
+https://myesadoctor.com/wp-json/wp/v2/posts

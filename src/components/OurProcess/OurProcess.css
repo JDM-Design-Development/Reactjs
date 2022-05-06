@@ -1,0 +1,130 @@
+section.OurProcessWrap {
+  padding: 60px 0;
+  background: var(--WhiteColor);
+}
+section.OurProcessWrap .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.OurProcessWrap .wTopHeading:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.OurProcessWrap p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+}
+.OpconBxHeading span:empty {
+  display: none;
+}
+section.OurProcessWrap .OurProcessBx {
+  width: 100%;
+  float: left;
+}
+section.OurProcessWrap .OpconBxHeading {
+  font-size: 21px;
+  color: #3a3a3a;
+  font-weight: 600;
+  margin: 0;
+  width: 100%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.OpconBxHeading span {
+  color: var(--TealColorLight);
+  font-size: 35px;
+  padding: 0px 10px 0 0;
+  font-weight: 700;
+  float: left;
+}
+section.OurProcessWrap .OpconBxPara {
+  margin-bottom: 15px;
+}
+section.OurProcessWrap .OpConBx:last-child .OpconBxPara {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+section.OurProcessWrap .OpImgBx {
+    text-align: center;
+  }
+section.OurProcessWrap .OurProcessCol p{
+  text-align: justify;
+}
+section.OurProcessWrap {
+  padding: 40px 0;
+}
+section.OurProcessWrap .OurProcessCol p:last-child {
+  margin-bottom: 0;
+}
+}
+@media screen and (max-width: 600px) {
+  section.OurProcessWrap {
+    padding: 40px 0;
+  }
+  section.OurProcessWrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  .OurProcessCol .OurProcessBx .OpConBx {
+    margin-top: 17px;
+  }
+  section.OurProcessWrap .OpconBxHeading {
+    font-size: 20px;
+  }
+  section.OurProcessWrap p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 540px) {
+  section.OurProcessWrap .h2 {
+    font-size: 20px;
+  }
+  section.OurProcessWrap .OpconBxHeading{
+    font-size: 18px;
+  }
+  section.OurProcessWrap p.OpconBxPara p {
+    margin: 0;
+  }
+  section.OurProcessWrap .OurProcessCol p {
+    margin-bottom: 0;
+  }
+  section.OurProcessWrap .OurProcessCol p {
+    text-align: justify;
+  }
+}
+@media screen and (max-width:280px) {
+  section.OurProcessWrap {
+    padding: 20px 0;
+  }
+  section.OurProcessWrap .h2 {
+    font-size: 18px;
+  }
+  section.OurProcessWrap p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  section.OurProcessWrap .OpconBxHeading {
+    font-size: 16px;
+  }
+  section.OurProcessWrap p.OpconBxPara p {
+    margin: 0;
+  }
+  section.OurProcessWrap .wTopHeading+p {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

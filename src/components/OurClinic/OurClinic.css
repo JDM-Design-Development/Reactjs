@@ -1,0 +1,135 @@
+section.OurClinicWrap {
+  padding: 60px 0;
+  background-size: inherit;
+}
+section.OurClinicWrap {
+  background-image: url(../../../public/images/back01.webp);
+}
+section.OurClinicWrap,
+:-webkit-full-screen:not(:root:root) {
+  background-image: url(../../../public/images/back.jpg);
+}
+section.OurClinicWrap .AppoinmentContent p,
+section.OurClinicWrap .AppoinmentContent p strong {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+  font-size: 15px;
+}
+.AppoinmentBox .h1 {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.AppoinmentBox a.btn.btn-appointment {
+  width: 100%;
+  color: #1e1e1e;
+}
+.AppoinmentContent p strong {
+  font-weight: 700 !important;
+}
+section.OurClinicWrap .AppoinmentContent p:last-child {
+  margin: 0;
+}
+section.OurClinicWrap .OurClinicWrap {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+section.OurClinicWrap .AppoinmentContent .h2 {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--HeadingColor);
+  padding: 0px 0 4px 0 !important;
+  margin: 0;
+}
+section.OurClinicWrap span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #137d4d;
+  margin-bottom: 11px;
+  float: left;
+  width: 100%;
+}
+.AppoinmentBox {
+  background-color: var(--WhiteColor);
+  position: relative;
+}
+.AppoinmentBox .btn-appointment {
+  width: 100%;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #20bc75;
+  color: #042b19;
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.AppoinmentBox .btn-appointment:hover {
+  color: #11603d;
+}
+.AppoinmentContent {
+  padding: 55px 55px 0 55px;
+}
+@media screen and (max-width: 1180px) {
+section.OurClinicWrap {
+  padding: 40px 0;
+  background-size: inherit;
+}
+}
+@media screen and (max-width: 600px) {
+  section.OurClinicWrap .AppoinmentContent {
+    padding: 35px 30px 0 30px;
+  }
+  section.OurClinicWrap .AppoinmentBox .btn-appointment {
+    font-size: 15px;
+  }
+  section.OurClinicWrap .AppoinmentContent p,
+  section.OurClinicWrap .AppoinmentContent p strong {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 540px) {
+section.OurClinicWrap .AppoinmentBox .h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 414px) {
+  section.OurClinicWrap .AppoinmentBox .h1 {
+    font-size: 20px;
+  }
+  section.OurClinicWrap .AppoinmentContent {
+    padding: 35px 15px 0 15px;
+  }
+  section.OurClinicWrap .AppoinmentBox p+.h1 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+}
+@media screen and (max-width: 280px) {
+  section.OurClinicWrap .AppoinmentBox .h1 {
+    font-size: 20px;
+  }
+
+  section.OurClinicWrap .AppoinmentContent {
+    padding: 35px 15px 0 15px;
+  }
+
+  section.OurClinicWrap .AppoinmentBox p+.h1 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+}
+@media only screen and (min-device-width: 1400px) {
+  section.OurClinicWrap {
+    padding: 60px 0;
+    background-size: cover;
+  }
+}

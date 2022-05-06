@@ -1,0 +1,145 @@
+section.KnowHowsOfESCWrap {
+  padding: 60px 0 0 0;
+  background-color: #e8eff5;
+      position: relative;
+}
+section.KnowHowsOfESCWrap p {
+  margin-top: 5px;
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+  line-height: 33px;
+}
+section.KnowHowsOfESCWrap .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+  position: relative;
+}
+section.KnowHowsOfESCWrap .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.KnowHowsOfESCWrap p:last-child {
+  margin-bottom: 50px;
+}
+section.KnowHowsOfESCWrap a {
+  color: #118366;
+}
+section.KnowHowsOfESCWrap a:hover {
+  color: #18b78e;
+}
+section.KnowHowsOfESCWrap img {
+  max-width: 100%;
+}
+section.KnowHowsOfESCWrap .getYourEsa {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--HeadingColor);
+}
+section.KnowHowsOfESCWrap li {
+  margin-top: 5px;
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+}
+.col-xl-4.col-lg-4.col-12{
+      position: relative;
+}
+section.KnowHowsOfESCWrap img {
+      max-width: 100%;
+      height: auto;
+      width: 90%;
+      position: absolute;
+      margin-left: -15px;
+      bottom: 0;
+}
+section.KnowHowsOfESCWrap .content h2 {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #525252;
+}
+section.KnowHowsOfESCWrap .content h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #525252;
+}
+@media screen and (max-width: 1024px) {
+  section.KnowHowsOfESCWrap img {
+    position: unset;
+    bottom: unset;
+  }
+  section.KnowHowsOfESCWrap {
+    padding: 60px 30px;
+    background-color: #e8eff5;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.KnowHowsOfESCWrap {
+    padding: 40px 0px;
+    background-color: #e8eff5;
+  }
+  section.KnowHowsOfESCWrap .h2 {
+    margin: 12px 0 0 0;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.KnowHowsOfESCWrap p {
+    font-size: 15px;
+  }
+  section.KnowHowsOfESCWrap p:last-child {
+    margin-bottom: 40px;
+  }
+  section.KnowHowsOfESDWrap img {
+    position: unset;
+    bottom: unset;
+    width: 47%;
+    margin: 0 auto;
+  }
+  section.KnowHowsOfESDWrap .imgbx {
+    text-align: center;
+  }
+
+  section.KnowHowsOfESCWrap .imgbx {
+    overflow: hidden;
+    height: 430px;
+    margin-bottom: 15px;
+  }
+  section.KnowHowsOfESCWrap p:last-child {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 414px) {
+  section.KnowHowsOfESCWrap .h2{
+    font-size:20px;
+  }
+  section.KnowHowsOfESCWrap .content h2 {
+    font-size: 20px;
+  }
+  section.KnowHowsOfESCWrap .content h3 {
+    font-size: 20px;
+  }
+  section.KnowHowsOfESCWrap img {
+    width: 65%;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+  section.KnowHowsOfESCWrap .align-items-end {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: start !important;
+  }
+  section.KnowHowsOfESCWrap img {
+
+  }
+  section.KnowHowsOfESCWrap .imgbx {
+    text-align: center;
+  }
+}

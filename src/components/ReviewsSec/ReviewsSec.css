@@ -1,0 +1,196 @@
+section.ReviewsSecWrap {
+  text-align: center;
+  padding: 60px 0;
+  background: #f9fdff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f9fdff),
+    color-stop(88%, #f9fdff),
+    to(rgba(255, 255, 255, 1))
+  );
+  background: -o-linear-gradient(
+    top,
+    #f9fdff 0%,
+    #f9fdff 88%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    #f9fdff 0%,
+    #f9fdff 88%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+section.ReviewsSecWrap .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.ReviewsSecWrap .wTopHeading:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.ReviewsSecWrap p {
+  margin-bottom: 45px;
+  color: var(--ParagraphColor);
+  font-weight: 500;
+}
+
+section.ReviewsSecWrap .OMconBxHeading {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #151515;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  position: relative;
+}
+section.ReviewsSecWrap .OMconBxHeading:after {
+  content: "";
+  display: block;
+  margin: 1px auto 3px auto;
+  width: 40px;
+  height: 3px;
+  border-radius: 100px;
+  background-color: var(--TealColorLight);
+  transition: width 0.25s ease;
+  -webkit-transition: width 0.25s ease;
+  -moz-transition: width 0.25s ease;
+  -ms-transition: width 0.25s ease;
+  -o-transition: width 0.25s ease;
+}
+section.ReviewsSecWrap .ReviewsSecBx:hover .OMconBxHeading:after {
+  width: 60px;
+  transition: width 0.25s ease;
+  -webkit-transition: width 0.25s ease;
+  -moz-transition: width 0.25s ease;
+  -ms-transition: width 0.25s ease;
+  -o-transition: width 0.25s ease;
+}
+section.ReviewsSecWrap .OMconBxPara {
+  font-size: var(--FontSize);
+  margin-bottom: 0;
+  line-height: calc(var(--FontSizeHeading) - 2px);
+}
+section.ReviewsSecWrap .ReviewsSecBx {
+  padding: 0px 40px;
+  background-color: var(--WhiteColor);
+  border: 1px solid #f1f1f1;
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+section.ReviewsSecWrap .ReviewsSecBx:hover img {
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transition: -webkit-transform 0.8s ease-in-out;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 800px) {
+  section.ReviewsSecWrap .ReviewsSecCol {
+    flex: 0 0 auto;
+    width: 33%;
+  }
+
+  section.ReviewsSecWrap .ReviewsSecBx {
+    padding: 0px 25px;
+  }
+
+  section.ReviewsSecWrap .ReviewsSecCol:first-child .ReviewsSecBx img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+
+  section.ReviewsSecWrap .ReviewsSecCol:last-child .ReviewsSecBx img {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+  }
+}
+@media screen and (max-width: 600px) {
+  section.ReviewsSecWrap {
+    padding: 40px 0;
+  }
+  section.ReviewsSecWrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  section.ReviewsSecWrap .OMconBxHeading {
+    font-size: 20px;
+  }
+  section.ReviewsSecWrap .ReviewsSecCol {
+    margin-bottom: 11px;
+  }
+  section.ReviewsSecWrap p {
+    font-size: 15px;
+  }
+  section.ReviewsSecWrap .OMconBxPara {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  section.ReviewsSecWrap .ReviewsSecCol {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+section.ReviewsSecWrap .h2 {
+  font-size: 20px;
+}
+  section.ReviewsSecWrap .ReviewsSecBx {
+    padding: 0px 25px;
+  }
+
+  section.ReviewsSecWrap .ReviewsSecCol:first-child .ReviewsSecBx img {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+
+  section.ReviewsSecWrap .ReviewsSecCol:last-child .ReviewsSecBx img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+}
+@media screen and (max-width:414px) {
+section.ReviewsSecWrap .h2 {
+  font-size: 20px;
+}
+
+section.ReviewsSecWrap .wTopHeading+p {
+  margin-bottom: 12px;
+}
+
+section.ReviewsSecWrap .ReviewsSecBx {
+  height: 90px;
+}
+
+section.ReviewsSecWrap .ReviewsSecCol:first-child .ReviewsSecBx img {
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+}
+}
+@media screen and (max-width:280px) {
+section.ReviewsSecWrap .h2 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 1400px) {
+}

@@ -1,0 +1,84 @@
+section.ESALawCaWrap {
+  padding: 60px 0;
+  background-color: var(--WhiteColor);
+}
+section.ESALawCaWrap .h1 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.ESALawCaWrap .h1:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.ESALawCaWrap .h2 {
+  font-size: 21px;
+  color: #3a3a3a;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  width: 100%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+section.ESALawCaWrap h2 {
+  font-size: 21px;
+  color: #3a3a3a;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  width: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+section.ESALawCaWrap p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+}
+section.ESDprivilege {
+  text-align: center;
+  color: var(--WhiteColor);
+  padding: 60px 0;
+}
+section.ESDprivilege {
+  background-image: url(../../../public/images/background-6.webp);
+}
+section.ESDprivilege,
+:-webkit-full-screen:not(:root:root) {
+  background-image: url(../../../public/images/background-6.jpg);
+}
+section.ESDprivilege p:last-child {
+  margin: 0;
+}
+
+section.ESDprivilege p {
+  color: var(--WhiteColor);
+  font-weight: 500;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 600px) {
+  section.ESALawCaWrap p,
+  section.ESDprivilege p {
+    font-size: 15px;
+  }
+  section.ESALawCaWrap .imgbx {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media only screen and (min-device-width: 1400px) {
+}

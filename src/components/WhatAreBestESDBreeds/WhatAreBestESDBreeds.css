@@ -1,0 +1,176 @@
+section.WhatAreBestESDBreedsWrap {
+  padding: 60px 0;
+  background-color: #0f1a26;
+}
+section.WhatAreBestESDBreedsWrap p {
+  margin-top: 5px;
+  color: var(--WhiteColor);
+  font-weight: 500;
+  text-align: center;
+}
+section.WhatAreBestESDBreedsWrap .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--WhiteColor);
+  position: relative;
+}
+section.WhatAreBestESDBreedsWrap .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.WhatAreBestESDBreedsWrap p:last-child {
+  margin-bottom: 0px;
+}
+section.WhatAreBestESDBreedsWrap img {
+  max-width: 100%;
+}
+.QualifyingConditions ul.react-tabs__tab-list .h3 {
+  color: #464646;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+  display: block;
+  float: left;
+}
+section.WhatAreBestESDBreedsWrap .details p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+}
+section.WhatAreBestESDBreedsWrap .details {
+  background: var(--WhiteColor);
+  height: 263px;
+  padding: 15px 20px;
+  overflow-y: auto;
+  border-radius: 4px;
+}
+section.WhatAreBestESDBreedsWrap .details::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+section.WhatAreBestESDBreedsWrap .details::-webkit-scrollbar-thumb {
+  background-color: #48b99e;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+section.WhatAreBestESDBreedsWrap .QualifyingConditions .react-tabs__tab {
+  width: 100%;
+  background: var(--WhiteColor);
+  border: none;
+  padding: 13px 12px;
+}
+section.WhatAreBestESDBreedsWrap .QualifyingConditions .react-tabs__tab:after {
+  content: unset;
+}
+section.WhatAreBestESDBreedsWrap .react-tabs__tab-list {
+  border-bottom: none;
+}
+section.WhatAreBestESDBreedsWrap
+  .QualifyingConditions
+  .react-tabs__tab--selected {
+  background: #04ab70;
+}
+section.WhatAreBestESDBreedsWrap
+  .QualifyingConditions
+  .react-tabs__tab--selected
+  .h3 {
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+  section.WhatAreBestESDBreedsWrap .imgbx {
+    width: 361px;
+    height: 361px;
+    border: 4px solid #868282;
+    overflow: hidden;
+    background: #beffef;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 0 6px #00000040;
+    box-shadow: 0 0 6px #00000040;
+  }
+  section.WhatAreBestESDBreedsWrap .imgbx img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: -61px;
+    margin: auto;
+    width: 154%;
+    max-width: unset !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.WhatAreBestESDBreedsWrap p {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  section.WhatAreBestESDBreedsWrap {
+    padding: 40px 0;
+  }
+  section.WhatAreBestESDBreedsWrap .details p {
+    font-size: 15px;
+  }
+  section.WhatAreBestESDBreedsWrap .h2 {
+    margin: 12px 0 0 0;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.WhatAreBestESDBreedsWrap .imgbx {
+    width: 246px;
+    height: 246px;
+    border: 4px solid var(--WhiteColor);
+    overflow: hidden;
+    background: #beffef;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 0 6px #00000040;
+    box-shadow: 0 0 6px #00000040;
+  }
+  section.WhatAreBestESDBreedsWrap .imgbx img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: -61px;
+    margin: auto;
+    width: 159%;
+    max-width: unset !important;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media only screen and (min-device-width: 1400px) {
+  section.WhatAreBestESDBreedsWrap .col-xl-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  section.WhatAreBestESDBreedsWrap .col-xl-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  section.WhatAreBestESDBreedsWrap {
+    padding: 60px 100px;
+  }
+}

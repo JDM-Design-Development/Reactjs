@@ -1,0 +1,84 @@
+section.HowUseESAWrap {
+  padding: 60px 0;
+  background-size: cover;
+  background-position: -156px 0;
+}
+/* section.HowUseESAWrap {
+  background-image: url(../../../public/images/obtaining-an-emotional-support-animal-letter.webp);
+}
+section.HowUseESAWrap,
+:-webkit-full-screen:not(:root:root) {
+  background-image: url(../../../public/images/obtaining-an-emotional-support-animal-letter.jpg);
+} */
+section.HowUseESAWrap .HowUseESABox p,
+section.HowUseESAWrap .HowUseESABox p strong {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  line-height: var(--FontSizeHeading);
+  text-align: justify;
+}
+section.HowUseESAWrap .HowUseESABox li {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  line-height: var(--FontSizeHeading);
+}
+section.HowUseESAWrap .HowUseESABox p strong {
+  font-weight: 700 !important;
+}
+section.HowUseESAWrap .HowUseESABox p:last-child {
+  margin: 0;
+}
+section.HowUseESAWrap .HowUseESABox {
+  width: 100%;
+  float: left;
+}
+section.HowUseESAWrap .HowUseESABox ul {
+  width: 100%;
+  float: left;
+  margin-bottom: 0;
+}
+section.HowUseESAWrap .HowUseESABox .h2 {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--HeadingColor);
+  padding: 0px 0 4px 0 !important;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  section.HowUseESAWrap {
+    padding: 40px 0;
+  }
+  section.TopInnerBannerWrap .h2 {
+    color: var(--WhiteColor) !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.HowUseESAWrap .HowUseESABox p,
+  section.HowUseESAWrap .HowUseESABox p strong {
+    font-size: 15px;
+  }
+  section.HowUseESAWrap .HowUseESABox li {
+    font-size: 15px;
+  }
+  section.HowUseESAWrap .HowUseESABox {
+    background: var(--WhiteColor);
+    padding: 30px 17px;
+  }
+  section.HowUseESAWrap .HowUseESABox .h2 {
+    font-size: 20px;
+    padding: 0px 0 14px 0 !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  section.HowUseESAWrap .HowUseESABox .h2 {
+    font-size: 20px;
+  }
+  section.HowUseESAWrap {
+    padding: 40px 0;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+  section.HowUseESAWrap {
+    background-position: 0px 0;
+  }
+}

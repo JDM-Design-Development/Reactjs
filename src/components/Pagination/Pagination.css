@@ -1,0 +1,31 @@
+ul.pagination {
+  align-items: center;
+  justify-content: center;
+  margin-top: 41px;
+}
+ul.pagination .page-link {
+  background-color: #343434;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.75rem 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+ul.pagination .page-item {
+  margin: 0 2px;
+}
+
+ul.pagination .page-link:hover {
+  background-color: #64d7ba;
+  color: #fff;
+}
+@media screen and (max-width: 414px) {
+  ul.pagination .page-link {
+    padding: 0.35rem 1rem;
+  }
+  ul.pagination {
+    margin-top: 10px;
+  }
+}

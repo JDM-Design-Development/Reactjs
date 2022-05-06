@@ -1,0 +1,190 @@
+section.WhatStudiesSay {
+  padding: 60px 0;
+}
+section.WhatStudiesSay p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+}
+section.WhatStudiesSay .WSSwrap {
+  width: 100%;
+  float: left;
+}
+section.WhatStudiesSay .WSSimgBx {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  max-width: 80%;
+  width: 100%;
+  color: #bbb;
+  font-size: var(--FontSize);
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+section.WhatStudiesSay .WSSimgBx *,
+section.WhatStudiesSay .WSSimgBx:before,
+section.WhatStudiesSay .WSSimgBx:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+section.WhatStudiesSay .WSSimgBx:before,
+section.WhatStudiesSay .WSSimgBx:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #18b78e;
+  border-color: transparent #18b78e;
+}
+section.WhatStudiesSay .WSSimgBx img {
+  max-width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  padding: 10px;
+}
+section.WhatStudiesSay .WSSimgBx a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+section.WhatStudiesSay .WSSimgBx:hover:before,
+section.WhatStudiesSay .WSSimgBx.hover:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+section.WhatStudiesSay .WSSimgBx:hover:before,
+section.WhatStudiesSay .WSSimgBx.hover:before,
+section.WhatStudiesSay .WSSimgBx:hover:after,
+section.WhatStudiesSay .WSSimgBx.hover:after {
+  border-width: 10px;
+}
+section.WhatStudiesSay .WSSimgBx:hover:after,
+section.WhatStudiesSay .WSSimgBx.hover:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+section.WhatStudiesSay .WSSwrap a {
+  color: #118366;
+}
+section.WhatStudiesSay .WSSwrap a:hover {
+  color: #18b78e;
+}
+section.WhatStudiesSay .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+  text-align: center;
+  margin-top: 30px;
+}
+section.WhatStudiesSay .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.WhatStudiesSay .WSSwrap .h2 {
+  font-weight: 500;
+  font-size: 33px;
+  color: var(--HeadingColor);
+  text-align: left;
+  margin-top: 0px;
+}
+section.WhatStudiesSay .WSSwrap .h2::after {
+  content: unset;
+}
+
+.WSSimgBx .WSSwrap img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+section.WhatStudiesSay .text-right {
+  text-align: right !important;
+}
+@media screen and (max-width: 1024px) {
+  section.WhatStudiesSay .WSSwrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+}
+@media screen and (max-width: 820px) {
+  section.WhatStudiesSay .h2 {
+    margin-top: 0;
+  }
+  section.WhatStudiesSay .text-right {
+    text-align: left !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  section.WhatStudiesSay {
+    padding: 40px 0;
+  }
+  section.WhatStudiesSay .WSSwrap {
+    margin-bottom: 0;
+  }
+  section.WhatStudiesSay .WSSwrap .h2 {
+    margin-bottom: 11px;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.WhatStudiesSay .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  section.WhatStudiesSay .text-right {
+    text-align: left !important;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  section.WhatStudiesSay p {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  section.WhatStudiesSay .WSSimgBx {
+    position: relative;
+    display: inline-block;
+    margin: 20px auto;
+    max-width: 45% !important;
+  }
+
+  section.WhatStudiesSay .WSSwrap {
+    text-align: center;
+  }
+
+  section.WhatStudiesSay .WSSwrap .h2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 414px) {
+  section.WhatStudiesSay .h2{
+    font-size: 20px !important;
+  }
+  section.WhatStudiesSay .row:last-child .WSSwrap p:last-child {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

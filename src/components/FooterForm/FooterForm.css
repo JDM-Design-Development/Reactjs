@@ -1,0 +1,186 @@
+section.FooterFormWrap {
+  padding: 20px 10px;
+  background: #d15542;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+section.FooterFormWrap .rowfirst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+section.FooterFormWrap.panel.visible {
+  padding-bottom: 0;
+}
+section.FooterFormWrap .rowlast {
+  height: 0;
+  background-color: #3d3b3b;
+  padding: 0;
+  margin-top: 0px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  opacity: 0;
+  overflow: hidden;
+}
+section.FooterFormWrap .rowlast.visible {
+  height: 255px;
+  padding: 30px 0 30px 0;
+  opacity: 1;
+  margin-top: 20px;
+  overflow: unset;
+}
+section.FooterFormWrap .rowfirst > .col-lg-12,
+section.FooterFormWrap .rowlast > .col-lg-12 {
+  width: 66%;
+  margin: 0 auto;
+}
+
+section.FooterFormWrap .rowfirst .h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: var(--FontSizeHeading);
+}
+section.FooterFormWrap .rowfirst .btnbx .btn {
+  margin: 0px 0 0px 0;
+  background-color: #b94735;
+  float: right;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  color: var(--WhiteColor) !important;
+}
+section.FooterFormWrap .rowlast input[type="text"],
+section.FooterFormWrap .rowlast input[type="tel"],
+section.FooterFormWrap .rowlast input[type="email"] {
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  color: var(--WhiteColor);
+  width: 100%;
+}
+p.pcls {
+  color: var(--WhiteColor);
+  font-weight: 500;
+  line-height: var(--FontSizeHeading);
+  text-align: center;
+  margin-top: var(--FontSize);
+}
+p.pcls span {
+  color: #ef624f !important;
+  font-weight: 600;
+}
+.submitbx input#submit_button {
+  background-color: #ff715b;
+  color: var(--WhiteColor);
+  border: none;
+  margin: 0 auto !important;
+  padding: 6px 22px;
+  text-transform: uppercase;
+  font-size: 17px;
+  border-radius: 3px;
+}
+.submitbx {
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  section.FooterFormWrap .rowfirst > .col-lg-12,
+  section.FooterFormWrap .rowlast > .col-lg-12 {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  section.FooterFormWrap .rowfirst .h3 {
+    margin: 0 0 7px 0;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  footer.FooterWrap {
+    padding: 40px 10px 112px 10px;
+  }
+  section.FooterFormWrap .rowlast.visible {
+    height: 150px;
+  }
+  p.pcls {
+    display: none;
+  }
+  .submitbx {
+    margin-top: 15px !important;
+  }
+  section.FooterFormWrap.panel .rowfirst .txtbx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  section.FooterFormWrap .rowfirst {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 21px;
+  }
+  section.FooterFormWrap .rowfirst .btnbx .btn {
+    margin: 2px auto 0 auto;
+    float: none;
+  }
+  .btnbx {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.FooterFormWrap .rowfirst > .col-lg-12,
+  section.FooterFormWrap .rowlast > .col-lg-12 {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  section.FooterFormWrap .rowfirst .h3 {
+    margin: 0 0 7px 0;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center !important;
+    width: 100%;
+  }
+  footer.FooterWrap {
+    padding: 40px 10px 100px 10px;
+  }
+  section.FooterFormWrap .rowlast.visible {
+    height: 238px;
+  }
+  p.pcls {
+    display: none;
+  }
+  .submitbx {
+    margin-top: 15px !important;
+  }
+  section.FooterFormWrap .rowfirst .h3 {
+    text-align: center;
+        color: #282626 !important;
+  }
+  section.FooterFormWrap .rowfirst .btnbx .btn {
+    margin: 2px auto 0 auto;
+    float: none;
+    font-size: 12px;
+  }
+  .btnbx {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+}
+@media only screen and (min-device-width: 1400px) {
+}

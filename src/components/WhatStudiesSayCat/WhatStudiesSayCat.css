@@ -1,0 +1,213 @@
+section.WhatStudiesSayCat {
+  padding: 60px 0;
+}
+section.WhatStudiesSayCat p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+}
+section.WhatStudiesSayCat .WSSwrap {
+  width: 100%;
+  float: left;
+}
+section.WhatStudiesSayCat .WSSimgBx {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  max-width: 80%;
+  width: 100%;
+  color: #bbb;
+  font-size: var(--FontSize);
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+section.WhatStudiesSayCat .WSSimgBx *,
+section.WhatStudiesSayCat .WSSimgBx:before,
+section.WhatStudiesSayCat .WSSimgBx:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+section.WhatStudiesSayCat .WSSimgBx:before,
+section.WhatStudiesSayCat .WSSimgBx:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #18b78e;
+  border-color: transparent #18b78e;
+}
+section.WhatStudiesSayCat .WSSimgBx img {
+  max-width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  padding: 10px;
+}
+section.WhatStudiesSayCat .WSSimgBx a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+section.WhatStudiesSayCat .WSSimgBx:hover:before,
+section.WhatStudiesSayCat .WSSimgBx.hover:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+section.WhatStudiesSayCat .WSSimgBx:hover:before,
+section.WhatStudiesSayCat .WSSimgBx.hover:before,
+section.WhatStudiesSayCat .WSSimgBx:hover:after,
+section.WhatStudiesSayCat .WSSimgBx.hover:after {
+  border-width: 10px;
+}
+section.WhatStudiesSayCat .WSSimgBx:hover:after,
+section.WhatStudiesSayCat .WSSimgBx.hover:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+section.WhatStudiesSayCat .WSSwrap a {
+  color: #118366;
+}
+section.WhatStudiesSayCat .WSSwrap a:hover {
+  color: #18b78e;
+}
+section.WhatStudiesSayCat .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+  text-align: center;
+  margin-top: 30px;
+}
+section.WhatStudiesSayCat .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.WhatStudiesSayCat .WSSwrap .h2 {
+  font-weight: 500;
+  font-size: 33px;
+  color: var(--HeadingColor);
+  text-align: left;
+  margin-top: 0px;
+}
+section.WhatStudiesSayCat .WSSwrap .h2::after {
+  content: unset;
+}
+
+.WSSimgBx .WSSwrap img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+section.WhatStudiesSayCat .text-right {
+  text-align: right !important;
+}
+@media screen and (max-width: 1024px) {
+  section.WhatStudiesSayCat .WSSwrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+}
+@media screen and (max-width: 915px) {
+  section.WhatStudiesSayCat {
+    padding: 40px 0;
+  }
+  section.WhatStudiesSayCat .WSSwrap {
+    margin-bottom: 0;
+  }
+  section.WhatStudiesSayCat .WSSwrap .h2 {
+    margin-bottom: 11px;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.WhatStudiesSayCat .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  section.WhatStudiesSayCat .text-right {
+    text-align: left !important;
+  }
+  section.WhatStudiesSayCat .WSSwrap .h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 820px) {
+  section.WhatStudiesSayCat {
+    padding: 40px 0;
+  }
+  section.WhatStudiesSayCat .WSSwrap {
+    margin-bottom: 0;
+  }
+  section.WhatStudiesSayCat .WSSwrap .h2 {
+    margin-bottom: 11px;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.WhatStudiesSayCat .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  section.WhatStudiesSayCat .text-right {
+    text-align: left !important;
+  }
+  section.WhatStudiesSayCat .WSSwrap .h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.WhatStudiesSayCat p {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  section.WhatStudiesSayCat .WSSimgBx {
+    position: relative;
+    display: inline-block;
+    margin: 20px auto;
+    max-width: 45% !important;
+  }
+  section.WhatStudiesSayCat .WSSwrap .h2 {
+    text-align: center !important;
+  }
+  section.WhatStudiesSayCat .WSSwrap {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  section.WhatStudiesSayCat .WSSimgBx {
+    position: relative;
+    display: inline-block;
+    margin: 20px auto;
+    max-width: 45% !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  section.WhatStudiesSayCat .h2 {
+    font-size: 20px;
+  }
+  section.WhatStudiesSayCat .WSSwrap .h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

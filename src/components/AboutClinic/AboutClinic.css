@@ -1,0 +1,120 @@
+section.AboutClinicWrap {
+  padding: var(--SliderPadding) 0;
+  background: var(--SectionBcolorSecond);
+}
+section.AboutClinicWrap p {
+  color: var(--ParagraphColor);
+  font-weight: calc(var(--FontWeightFull) - 400);
+  text-align: justify;
+}
+
+section.AboutClinicWrap .h2 {
+  font-weight: 600;
+  color: var(--HeadingColor);
+  position: relative;
+  margin: 0;
+  font-size: var(--FontSizeHeading);
+}
+section.AboutClinicWrap .h2 strong {
+  font-weight: 700;
+  color: var(--TealColorLight);
+}
+section.AboutClinicWrap .h2:after {
+  content: "";
+  display: block;
+  margin: 10px 0 10px 0;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.AboutClinicWrap p:last-child {
+  margin-bottom: 0px;
+}
+section.AboutClinicWrap img {
+  max-width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  section.AboutClinicWrap .imgbx {
+    width: 361px;
+    height: 361px;
+    border: 4px solid var(--WhiteColor);
+    overflow: hidden;
+    background: #beffef;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 0 6px #00000040;
+    box-shadow: 0 0 6px #00000040;
+  }
+  section.AboutClinicWrap .imgbx img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: -315px;
+    margin: auto;
+    width: 200%;
+    max-width: unset !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.AboutClinicWrap p {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  section.AboutClinicWrap {
+    padding: 40px 0;
+  }
+  section.AboutClinicWrap .h2 {
+    margin: 12px 0 0 0;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.AboutClinicWrap .imgbx {
+    width: 261px;
+    height: 261px;
+    border: 4px solid var(--WhiteColor);
+    overflow: hidden;
+    background: #beffef;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 0 6px #00000040;
+    box-shadow: 0 0 6px #00000040;
+  }
+  section.AboutClinicWrap .imgbx img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: -236px;
+    margin: auto;
+    width: 197%;
+    max-width: unset !important;
+  }
+}
+@media screen and (max-width:414px) {
+  section.AboutClinicWrap .imgbx {
+    width: 218px;
+    height: 218px;
+  }
+  
+  section.AboutClinicWrap .h2 {
+    font-size: 20px;
+  }
+  
+  section.AboutClinicWrap .row:nth-child(2) {
+    margin: 15px 0 0 0 !important;
+  }
+  
+  section.AboutClinicWrap .row:nth-child(2) .col-12:last-child .imgbx {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width:280px) {
+  section.AboutClinicWrap .h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

@@ -1,0 +1,75 @@
+section.TopImgBannerWrap {
+  padding: 60px 0;
+  background: #f9fdff;
+  height: 540px;
+  position: relative;
+  background-size: cover;
+}
+section.TopImgBannerWrap.overlaybg-N:before {
+  content: unset;
+}
+section.TopImgBannerWrap.overlaybg-Y:before {
+  content: "";
+  background: rgb(0 0 0 / 41%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+section.TopImgBannerWrap p {
+  margin-top: 5px;
+  color: var(--WhiteColor);
+  font-weight: 500;
+}
+section.TopImgBannerWrap .h2 {
+  font-weight: 600;
+  font-size: 45px;
+  color: var(--WhiteColor);
+  position: relative;
+  margin: 0;
+  padding: 0 !important;
+}
+section.TopImgBannerWrap .container,
+section.TopImgBannerWrap .row {
+  height: 100%;
+}
+@media screen and (max-width: 1024px) {
+  section.TopImgBannerWrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+    padding: 0 !important;
+  }
+  section.TopImgBannerWrap {
+    padding: 60px 0;
+    height: auto;
+    background-position: center;
+  }
+  section.TopImgBannerWrap p {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.TopImgBannerWrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+    padding: 0 !important;
+  }
+  section.TopImgBannerWrap {
+    padding: 40px 0;
+    height: auto;
+    background-position: left;
+  }
+  section.TopImgBannerWrap p {
+    margin: 0;
+    font-size: 15px;
+  }
+  section.TopInnerBannerWrap .container,
+  section.TopInnerBannerWrap .row {
+    height: 90%;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

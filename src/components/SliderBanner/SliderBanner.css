@@ -1,0 +1,405 @@
+.SliderContainer h1.h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: calc(var(--FontSizeHeading) - 2px);
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 15px;
+}
+.SliderContainer .list-block ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.SliderContainer .button-area.text-left {
+  text-align: left;
+}
+.SliderContainer .list-block li {
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #464646;
+  font-size: 17px;
+  font-weight: 500;
+  list-style: square;
+  margin-left: 21px;
+}
+.Myleft span{
+float: left;
+width:100%;
+}
+.Myleft-2 span{
+    width: auto;
+    margin-right: 10px;
+    float: left;
+}
+p.Myleft-2 {
+  margin-top: 12px;
+  float: left;
+}
+.SliderContainer .price-block {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  color: #484848;
+}
+.SliderContainer .price-block small {
+  font-weight: 600;
+}
+.SliderContainer .applyonline {
+  float: left;
+}
+.TrustBadges {
+  width: 100%;
+  float: left;
+}
+.carousel .slide .TrustBadges img {
+  width: 215px;
+  float: left;
+  margin-top: 9px;
+}
+.SliderContainer {
+  min-height: 590px;
+  padding: 45px 0;
+  background-size: 116%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.SliderContainer {
+  background-image: url(../../../public/images/top-header.webp);
+}
+.SliderContainer,
+:-webkit-full-screen:not(:root:root) {
+  background-image: url(../../../public/images/top-header.png);
+}
+.SliderContainer .row .imgBx {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+.SliderContainer .imgBx img {
+  border-radius: 45px;
+  border: 3px dashed #ecebeb;
+  -webkit-box-shadow: 4px 4px 8px #cacecd;
+  box-shadow: 4px 4px 8px #cacecd;
+}
+.SliderContainer p.carousel-status,
+.SliderContainer ul.control-dots {
+  display: none;
+}
+.SliderContainer .price-block p {
+  font-size: unset !important;
+}
+@media screen and (max-width: 1180px) {
+  .SliderContainer {
+    min-height: 590px;
+    padding: 45px 0;
+    background-size: 127%;
+  }
+}
+@media screen and (max-width: 1024px) {
+
+  .SliderContainer {
+    background-color: #f3f3f3;
+    min-height: auto;
+  }
+.TrustBadges {
+  margin-bottom: 0;
+  display: none;
+}
+}
+@media screen and (max-width: 914px) {
+.carousel .slide img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.SliderContainer .row .slideimgbx {
+    height: 370px;
+    margin-bottom: 20px;
+}
+.SliderContainer .row .imgBx {
+  display: flex;
+    height: 100%;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.SliderContainer {
+  padding: 30px 0;
+}
+}
+@media screen and (max-width: 600px) {
+  .SliderContainer h1.h1 {
+    margin-top: 20px;
+  }
+
+  .SliderContainer {
+    background-color: none;
+  }
+
+  .SliderContainer .list-block li {
+    line-height: 19px;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #464646;
+    font-size: 14px;
+    font-weight: 500;
+    list-style: square;
+    margin-left: 18px;
+  }
+
+  .SliderContainer {
+    min-height: auto;
+    padding: 15px 0;
+    background: var(--WhiteColor);
+    -webkit-box-shadow: 0px 0px 8px #ded7d7;
+    box-shadow: 0px 0px 8px #ded7d7;
+  }
+
+  section.Benifits p.BiconBxPara {
+    padding: 0 53px;
+  }
+
+  .SliderContainer .row .imgBx {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    border-radius: unset;
+    overflow: unset;
+    border: none;
+    box-shadow: none;
+  }
+
+  .SliderContainer .row .slideimgbx {
+    height: auto;
+    margin-bottom: 0px;
+  }
+  .SliderContainer .row .slideimgbx {
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .SliderContainer .row .imgBx {
+    border: none;
+    box-shadow: none;
+  }
+  
+  .SliderContainer .imgBx img {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-device-width:500px) and (max-device-width:540px) and (orientation:portrait) {
+.SliderContainer h1.h1 {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 12px 0 10px 0;
+}
+.SliderContainer .row .slideimgbx {
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.SliderContainer .row .imgBx {
+  border: none;
+  box-shadow: none;
+}
+
+.SliderContainer .imgBx img {
+  margin-bottom: 0;
+}
+.carousel .slide .TrustBadges img {
+  width: 167px
+}
+
+.SliderContainer .price-block {
+  font-size: 21px;
+}
+
+.SliderContainer .price-block p {
+  line-height: 25px !important;
+}
+
+.SliderContainer .list-block li {
+  display: none;
+}
+
+.TrustBadges {
+  display: none;
+}
+
+.SliderContainer button.btn.btn-danger.btn-sm {
+  padding: 0.55rem 0.5rem;
+}
+
+.SliderContainer .imgBx img {
+  height: auto !important;
+}
+.SliderContainer .row .slideimgbx {
+  height: 298px;
+  margin-bottom: 20px;
+}
+
+.SliderContainer .row .imgBx {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+
+}
+@media screen and (max-width: 414px) {
+.SliderContainer h1.h1 {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 12px 0 10px 0;
+}
+
+.carousel .slide .TrustBadges img {
+  width: 167px
+}
+
+.SliderContainer .price-block {
+  font-size: 21px;
+}
+
+.SliderContainer .price-block p {
+  line-height: 25px !important;
+}
+
+.SliderContainer .list-block li {
+  display: none;
+}
+.SliderContainer .row .slideimgbx {
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.SliderContainer .row .imgBx {
+  border: none;
+  box-shadow: none;
+}
+
+.SliderContainer .imgBx img {
+  margin-bottom: 0;
+}
+.TrustBadges {
+  display: none;
+}
+
+.SliderContainer button.btn.btn-danger.btn-sm {
+  padding: 0.55rem 0.5rem;
+}
+
+.SliderContainer .imgBx img {
+  height: auto !important;
+}
+  .SliderContainer .row .imgBx {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    border-radius: unset;
+    overflow: unset;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .SliderContainer .row .slideimgbx {
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .SliderContainer .row .slideimgbx {
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .SliderContainer .row .imgBx {
+    border: none;
+    box-shadow: none;
+  }
+  
+  .SliderContainer .imgBx img {
+    margin-bottom: 0;
+  }
+  .SliderContainer .row .slideimgbx {
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .SliderContainer .row .imgBx {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .SliderContainer .imgBx img {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 280px) {
+.SliderContainer h1.h1 {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 12px 0 10px 0;
+}
+.SliderContainer .row .slideimgbx {
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.SliderContainer .row .imgBx {
+  border: none;
+  box-shadow: none;
+}
+
+.SliderContainer .imgBx img {
+  margin-bottom: 0;
+}
+.carousel .slide .TrustBadges img {
+  width: 167px
+}
+.SliderContainer .price-block {
+  font-size: 21px; 
+}
+.SliderContainer .price-block p {
+  line-height: 25px !important;
+}
+.SliderContainer .list-block li {
+  display: none;
+}
+.TrustBadges {
+  display: none;
+}
+.SliderContainer button.btn.btn-danger.btn-sm {
+  padding: 0.55rem 0.5rem;
+}
+.SliderContainer .imgBx img {
+  height: 211px !important;
+}
+
+}
+@media only screen and (min-device-width: 1400px) {
+  .SliderContainer {
+    min-height: 743px;
+    padding: 88px 0;
+    background-size: 112%;
+  }
+  .SliderContainer .price-block {
+    margin-bottom: 20px;
+    margin-top: 17px;
+  }
+  .TrustBadges {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,52 @@
+section.HowToFlyVideo {
+  text-align: center;
+  padding: 60px 0;
+  background: #f9fdff;
+}
+section.HowToFlyVideo .HowToFlyVideoWrap {
+  width: 100%;
+  float: left;
+}
+section.HowToFlyVideo .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+  margin: 0 auto;
+  width: 60%;
+}
+section.HowToFlyVideo .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.HowToFlyVideo .VidBx {
+  padding-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  section.HowToFlyVideo {
+    padding: 40px 0;
+  }
+  section.HowToFlyVideo .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+    width: 100%;
+  }
+  .HowToFlyVideoWrap {
+    margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 540px) {
+section.HowToFlyVideo .h2 {
+  font-size: 20px;
+}
+}
+@media screen and (max-width: 414px) {
+  section.HowToFlyVideo .h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

@@ -1,0 +1,232 @@
+section.PerkESD {
+  text-align: center;
+  padding: 60px 0 0 0;
+  background: #fb7d69;
+}
+section.PerkESD p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+}
+section.PerkESD .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.PerkESD .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.PerkESD .react-tabs__tab span {
+  background: var(--WhiteColor);
+  border: none;
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid #37b192;
+  margin: 0 auto 20px auto;
+}
+section.PerkESD .react-tabs__tab--selected {
+  background: rgb(255 255 255 / 0%);
+  border-color: rgb(170 170 170 / 0%);
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+section.PerkESD .hovicon.effect {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+  color: var(--WhiteColor);
+  padding: 8px !important;
+  -webkit-box-shadow: 0 0 0 4px rgb(255 255 255);
+  box-shadow: 0 0 0 4px rgb(255 255 255);
+  -webkit-transition: background 0.2s, color 0.2s;
+  -o-transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s;
+}
+section.PerkESD .hovicon:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: "";
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+section.PerkESD .hovicon.effect:after {
+  top: -8px;
+  left: -8px;
+  padding: 8px;
+  z-index: -1;
+  opacity: 0;
+}
+section.PerkESD .hovicon.effect:after {
+  -webkit-box-shadow: 3px 3px rgb(255 255 255);
+  box-shadow: 3px 3px rgb(255 255 255);
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, -webkit-transform 0.2s;
+  -o-transition: opacity 0.2s, transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s, -webkit-transform 0.2s;
+}
+
+section.PerkESD .hovicon.effect:hover:after {
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+section.PerkESD .react-tabs__tab--selected .hovicon.effect:after {
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+section.PerkESD .react-tabs__tab--selected span {
+  background: #37b192;
+}
+
+section.PerkESD .react-tabs__tab--selected span img {
+  -webkit-filter: brightness(111);
+  filter: brightness(111);
+}
+section.PerkESD em {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+}
+section.PerkESD .react-tabs__tab:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: none;
+  outline: none;
+}
+section.PerkESD .react-tabs__tab:focus:after {
+  content: none;
+}
+section.PerkESD .react-tabs__tab-list {
+  border-bottom: none;
+  margin: 0 0 40px;
+  padding: 0;
+  position: relative;
+}
+section.PerkESD .react-tabs__tab-list:before {
+  content: "";
+  background: var(--WhiteColor);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 85%;
+  height: 3px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  top: -14px;
+  bottom: 0;
+  -webkit-filter: brightness(10);
+  filter: brightness(10);
+}
+section.PerkESD .react-tabs__tab {
+  z-index: 2;
+  width: 19%;
+}
+section.PerkESD div.react-tabs__tab-panel .h3 {
+  color: var(--WhiteColor);
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+section.PerkESD div.react-tabs__tab-panel p {
+  color: var(--WhiteColor);
+  text-align: left;
+}
+section.PerkESD ul.circle-bullet li {
+  padding: 5px 0px 5px 2px;
+  color: var(--WhiteColor);
+  font-weight: 400;
+  text-align: left;
+}
+section.PerkESD ul.circle-bullet li a {
+  color: #205241;
+  font-weight: 600;
+}
+section.PerkESD a.btn {
+  background-color: #cc5542;
+  color: var(--WhiteColor);
+  float: left;
+  margin-left: 15px;
+  font-weight: 500;
+}
+section.PerkESD .react-tabs__tab-panel img {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  section.PerkESD .h2 {
+    margin: 0;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.PerkESD .react-tabs__tab {
+    z-index: 2;
+    width: 20%;
+    padding: 6px 7px;
+  }
+  section.PerkESD .react-tabs__tab-list:before {
+    content: unset;
+  }
+  section.PerkESD p {
+    font-size: 15px;
+  }
+  section.PerkESD div.react-tabs__tab-panel p {
+    font-size: 15px;
+  }
+  section.PerkESD em {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  section.PerkESD .react-tabs__tab-panel img {
+    width: 55%;
+  }
+  section.PerkESD ul.circle-bullet {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 280px) {
+  section.PerkESD .react-tabs__tab {
+    z-index: 2;
+    width: 48%;
+  }
+  section.PerkESD .h2, section.PerkESD div.react-tabs__tab-panel .h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  section.PerkESD .react-tabs__tab span {
+    margin: 0 auto 7px auto;
+  }
+  section.PerkESD .react-tabs__tab-panel img {
+    width: 90%;
+  }
+  section.PerkESD .react-tabs__tab {
+    z-index: 2;
+    width: 33%;
+    padding: 6px 7px;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

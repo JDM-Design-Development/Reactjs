@@ -1,0 +1,93 @@
+section.ServingCommunityWrap {
+  padding: 60px 0;
+  background: #f9fdff;
+}
+section.ServingCommunityWrap p {
+  margin-top: 5px;
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: center;
+}
+section.ServingCommunityWrap .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+  position: relative;
+}
+.ServingConclusion p:first-child {
+  font-size: 22px !important;
+  padding: 0 95px;
+}
+.ServingConclusion p:last-child {
+  font-size: 20px !important;
+  padding: 0 35px;
+  color: #ce1022;
+  line-height: 30px;
+  margin: 0;
+}
+@media screen and (max-width: 1180px) {
+  section.ServingCommunityWrap {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width:912px) {
+section.ServingCommunityWrap {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.ServingCommunityWrap {
+    padding: 40px 0;
+  }
+  section.ServingCommunityWrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  .ServingConclusion p:first-child {
+    font-size: 18px !important;
+  }
+  .ServingConclusion p:last-child {
+    font-size: 16px !important;
+  }
+  .ServingConclusion p:first-child {
+    font-size: 18px;
+    padding: 0 5px;
+  }
+  .ServingConclusion p:last-child {
+    font-size: 17px;
+    padding: 0 5px;
+    line-height: 27px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+  section.ServingCommunityWrap .h2 {
+    font-size: 20px;
+  }
+  .ServingConclusion p:first-child {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  section.ServingCommunityWrap .h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .ServingConclusion p:first-child {
+    font-size: 16px !important;
+    line-height: 25px !important;
+  }
+}
+@media screen and (max-width: 280px) {
+  section.ServingCommunityWrap .h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .ServingConclusion p:first-child {
+    font-size: 16px !important;
+    line-height: 25px !important;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

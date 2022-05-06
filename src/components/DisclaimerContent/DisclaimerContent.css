@@ -1,0 +1,49 @@
+section.DisclaimerContent {
+  background-color: var(--WhiteColor);
+  padding: 80px 0 60px 0;
+}
+section.DisclaimerContent .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.DisclaimerContent .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.DisclaimerContent p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+}
+section.DisclaimerContent p:last-child {
+  margin: 0;
+}
+section.DisclaimerContent li {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  line-height: var(--FontSizeHeading);
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 600px) {
+  section.DisclaimerContent {
+    padding: 40px 0;
+  }
+  section.DisclaimerContent .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+    width: 100%;
+  }
+  section.DisclaimerContent p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 1400px) {
+}

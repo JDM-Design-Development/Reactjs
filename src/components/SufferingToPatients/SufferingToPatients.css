@@ -1,0 +1,112 @@
+section.SufferingToPatientsWrap {
+  padding: 60px 0;
+  background-color: var(--WhiteColor);
+}
+section.SufferingToPatientsWrap p {
+  margin-top: 5px;
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+}
+
+section.SufferingToPatientsWrap .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+  position: relative;
+}
+section.SufferingToPatientsWrap .h2 strong {
+  font-weight: 700;
+  color: var(--TealColorLight);
+}
+section.SufferingToPatientsWrap .h2:after {
+  content: "";
+  display: block;
+  margin: 10px 0 10px 0;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.SufferingToPatientsWrap p:last-child {
+  margin-bottom: 0px;
+}
+section.SufferingToPatientsWrap img {
+  max-width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  section.SufferingToPatientsWrap .imgbx {
+    width: 361px;
+    height: 361px;
+    border: 4px solid var(--WhiteColor);
+    overflow: hidden;
+    background: var(--WhiteColor);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 0 6px #00000040;
+    box-shadow: 0 0 6px #00000040;
+  }
+  section.SufferingToPatientsWrap .imgbx img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: -151px;
+    margin: auto;
+    width: 151%;
+    max-width: unset !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.SufferingToPatientsWrap p {
+    margin-top: 0;
+    font-size: 15px;
+  }
+
+  section.SufferingToPatientsWrap .h2 {
+    margin: 12px 0 0 0;
+    font-size: calc(var(--FontSizeHeading) - 2px);
+  }
+  section.SufferingToPatientsWrap .imgbx {
+    width: 261px;
+    height: 261px;
+    border: 4px solid var(--WhiteColor);
+    overflow: hidden;
+    background: var(--WhiteColor);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 0 6px #00000040;
+    box-shadow: 0 0 6px #00000040;
+  }
+  section.SufferingToPatientsWrap .imgbx img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: -102px;
+    margin: auto;
+    width: 156%;
+    max-width: unset !important;
+  }
+  section.SufferingToPatientsWrap {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width:414px) {
+  section.SufferingToPatientsWrap .imgbx {
+    width: 218px;
+    height: 218px;
+  }
+  section.SufferingToPatientsWrap .h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:280px) {
+  section.SufferingToPatientsWrap .h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 1400px) {
+}

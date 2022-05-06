@@ -1,0 +1,186 @@
+section.CaliforniaESAlaws {
+  background-image: linear-gradient(#342f33, #1c1a19);
+  padding: 60px 0;
+}
+section.CaliforniaESAlaws p {
+  margin-bottom: 45px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+section.CaliforniaESAlaws .h2 {
+  text-align: center;
+  color: #fff;
+}
+section.CaliforniaESAlaws .CaliforniaESAlawsBx{
+  align-items: center;
+  display: flex;
+}
+section.CaliforniaESAlaws .CaliforniaESAlawsBx .h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+section.CaliforniaESAlaws .CaliforniaESAlawsBx p{
+  color:#fff;
+  padding: 0 0;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: left;
+}
+section.CaliforniaESAlaws .CaliforniaESAlawsBx li{
+  color: #fff;
+  padding: 0 0;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: left;
+}
+li {
+  line-height: var(--LineHeight) !important;
+  font-size: var(--FontSize);
+}
+@media screen and (max-width: 1180px) {
+section.CaliforniaESAlaws {
+    padding: 40px 0;
+  }
+  section.CaliforniaESAlaws .row:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (max-width: 912px) {
+  section.CaliforniaESAlaws {
+    padding: 40px 0;
+  }
+  section.CaliforniaESAlaws .imgbx {
+    margin-bottom: 15px;
+  }
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx .h2,
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx li,
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx p {
+    text-align: center;
+  }
+  
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx li {
+    margin-bottom: 3px;
+    list-style-position: inside; 
+  }
+  
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx ul {
+    padding: 0;
+  }
+  section.CaliforniaESAlaws .mb-4.row:last-child {
+    margin-bottom: 0 !important;
+  }
+  section.CaliforniaESAlaws .imgbx,
+  section.CaliforniaESAlaws .imgbx img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  
+}
+@media screen and (max-width: 540px) {
+  section.CaliforniaESAlaws .h2 {
+    font-size: 20px;
+  }
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx .h2 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  section.CaliforniaESAlaws p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px !important;
+    margin-bottom: 15px;
+  }
+section.CaliforniaESAlaws .CaliforniaESAlawsBx li,
+section.CaliforniaESAlaws .CaliforniaESAlawsBx p {
+  font-weight: 400;
+      font-size: 14px;
+}
+}
+@media screen and (max-width: 414px) {
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx .h2 {
+    margin: 18px 0 0 0;
+  }
+  section.CaliforniaESAlaws .row:last-child {
+    margin-bottom: 0 !important;
+  }
+  section.CaliforniaESAlaws {
+    padding: 40px 0;
+  }
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx li {
+    color: #f7f7f7;
+    padding: 0 0 11px 0;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  section.CaliforniaESAlaws ul.heath-pro {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+  section.CaliforniaESAlaws {
+    padding: 40px 0 40px 0;
+  }
+  section.CaliforniaESAlaws .h2 {
+    font-size: 20px;
+  }
+  section.CaliforniaESAlaws p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px !important;
+    margin-bottom: 15px;
+  }
+  section.CaliforniaESAlaws .CaliforniaESAlawsBx .h2 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  section.CaliforniaESAlaws ul.heath-pro {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  section.CaliforniaESAlaws ul.heath-pro li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 280px) {
+  section.CaliforniaESAlaws {
+    padding: 40px 0 15px 0;
+  }
+  section.CaliforniaESAlaws .h2 {
+    font-size: 21px;
+  }
+section.CaliforniaESAlaws p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px !important;
+  margin-bottom: 15px;
+}
+section.CaliforniaESAlaws .CaliforniaESAlawsBx .h2 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+section.CaliforniaESAlaws ul.heath-pro {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+section.CaliforniaESAlaws ul.heath-pro li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+
+}
+@media only screen and (min-device-width: 1400px) {
+}

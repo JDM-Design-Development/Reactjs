@@ -1,0 +1,52 @@
+section.PrivacyPolicyContent {
+  background-color: var(--WhiteColor);
+  padding: 80px 0 60px 0;
+}
+section.PrivacyPolicyContent .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.PrivacyPolicyContent .h2:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.PrivacyPolicyContent p {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  text-align: justify;
+}
+section.PrivacyPolicyContent p:last-child {
+  margin: 0;
+}
+section.PrivacyPolicyContent li {
+  color: var(--ParagraphColor);
+  font-weight: 500;
+  line-height: var(--FontSizeHeading);
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 600px) {
+  section.PrivacyPolicyContent {
+    padding: 40px 0;
+  }
+  section.PrivacyPolicyContent .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+    width: 100%;
+  }
+  section.PrivacyPolicyContent li {
+    font-size: 15px;
+  }
+  section.PrivacyPolicyContent p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 1400px) {
+}

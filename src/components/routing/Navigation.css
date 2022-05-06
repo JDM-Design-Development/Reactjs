@@ -1,0 +1,215 @@
+.headerFixed {
+  position: relative;
+  background-color: #303346;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  z-index: 300;
+  -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+}
+
+.HeaderLeftTxt {
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.HeaderLeftTxt a,
+.RightTopLink {
+  background: none !important;
+  border: none !important;
+  color: var(--WhiteColor) !important;
+  font-size: 14px !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  text-decoration: none !important;
+}
+.HeaderLeftTxt a:hover {
+  color: #1edab5 !important;
+}
+.RightTopLink {
+  float: right;
+}
+a.bbbRating {
+  float: right;
+}
+#myHeader {
+  background-color: var(--WhiteColor);
+  -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+  height: 90px;
+}
+#myHeader a.nav-link {
+  font-weight: 600;
+  color: #4e4a4a;
+  font-size: var(--FontSize);
+  text-transform: capitalize;
+}
+.applyonline {
+  background: #f44336;
+  color: var(--WhiteColor);
+  font-weight: 600;
+  padding: 0.475rem 0.75rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.dropdown-menu .nav-item {
+  background: #328b74;
+  border-top: 1px solid var(--WhiteColor);
+}
+
+.dropdown-menu .nav-item a {
+  color: var(--WhiteColor);
+  line-height: 27px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dropdown-menu.show {
+  margin: 0;
+  padding: 0;
+  top: 60px;
+}
+.dropdown-menu .nav-item a:hover {
+  background: #26725f;
+  color: var(--WhiteColor);
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--WhiteColor) !important;
+  text-decoration: none;
+  background: #26725f;
+  outline: none;
+}
+#myHeader .active {
+  background-color: #26725f;
+}
+nav#myHeader a.nav-link.active {
+  background: var(--WhiteColor);
+  color: #118366;
+}
+.HeaderLeftTxt.row button {
+  background: none;
+  border: none;
+  font-size: 14px;
+}
+.HeaderLeftTxt.hright.row span svg {
+  margin-right: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  div#responsive-navbar-nav {
+    background: var(--WhiteColor);
+    padding: 7px 15px 15px 15px;
+    -webkit-box-shadow: 1px 14px 8px rgb(231 226 226 / 24%);
+    box-shadow: 1px 14px 8px rgb(231 226 226 / 24%);
+    width: 100%;
+    margin-top: 11px;
+  }
+  .dropdown-menu .nav-item a {
+    white-space: break-spaces;
+    line-height: 23px;
+    font-size: 14px;
+  }
+  .HeaderLeftTxt.row button {
+    text-align: left;
+  }
+  
+  .HeaderLeftTxt a {
+    padding: 0;
+    text-align: left;
+  }
+  
+  .RightTopLink {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  div#responsive-navbar-nav {
+    position: absolute;
+    top: 78px;
+    left: 0;
+  }
+  a#basic-nav-dropdown {
+    pointer-events: auto;
+  }
+  .dropdown-menu.show {
+    height: 131px;
+    overflow-y: scroll;
+  }
+  nav#myHeader {
+    z-index: 999999999999999999;
+  }
+}
+@media screen and (max-width: 600px) {
+  div#responsive-navbar-nav {
+    background: var(--WhiteColor);
+    padding: 7px 15px 15px 15px;
+    -webkit-box-shadow: 1px 14px 8px rgb(231 226 226 / 24%);
+    box-shadow: 1px 14px 8px rgb(231 226 226 / 24%);
+    width: 100%;
+    margin-top: 11px;
+  }
+  .dropdown-menu .nav-item a {
+    white-space: break-spaces;
+    font-size: 14px;
+  }
+  .dropdown-menu.show {
+    height: 199px;
+    overflow-y: scroll;
+  }
+  .dropdown-menu {
+    height: 150px;
+    overflow-y: scroll;
+  }
+  .dropdown-menu .nav-item a {
+    line-height: 21px;
+    padding: 6px 15px;
+  }
+  div#responsive-navbar-nav {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    height: 68vh;
+    overflow-y: scroll;
+    transition: height 0.35s ease;
+  }
+  nav#myHeader .ms-3.navbar-nav {
+    margin: 0 !important;
+  }
+}
+div#responsive-navbar-nav {
+  height: auto;
+}
+.HeaderLeftTxt.row span.react-loading-skeleton {
+  background: #ffffff1a !important;
+}
+.HeaderLeftTxt.row .react-loading-skeleton::after {
+  background: rgb(255 255 255 / 29%) !important;
+}
+.HeaderLeftTxt.hright.row span {
+  float: right;
+}
+
+nav#myHeader span.react-loading-skeleton {
+  float: left;
+  margin-left: 13px;
+}
+
+nav#myHeader span.react-loading-skeleton+br {
+  display: none !important;
+}
+@media only screen and (min-device-width: 1400px) {
+  .dropdown-menu .nav-item a {
+    color: var(--WhiteColor);
+    line-height: 38px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,179 @@
+section.WhyGetESAWrap {
+  text-align: center;
+  padding: 60px 0;
+  background: #f9fdff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f9fdff),
+    color-stop(88%, #f9fdff),
+    to(rgba(255, 255, 255, 1))
+  );
+  background: -o-linear-gradient(
+    top,
+    #f9fdff 0%,
+    #f9fdff 88%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    #f9fdff 0%,
+    #f9fdff 88%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+section.WhyGetESAWrap .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.WhyGetESAWrap .wTopHeading:after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: var(--TealColorLight);
+}
+section.WhyGetESAWrap p {
+  margin-bottom: 45px;
+  color: var(--ParagraphColor);
+  font-weight: 500;
+}
+section.WhyGetESAWrap .WhyGetESABx {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+section.WhyGetESAWrap .BiconBx {
+  width: 120px;
+  height: 120px;
+  background: var(--WhiteColor);
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  position: relative;
+  border: 2px solid var(--WhiteColor);
+  -webkit-box-shadow: 0px 0px 17px rgb(204 204 204 / 49%);
+  box-shadow: 0px 0px 17px rgb(204 204 204 / 49%);
+  z-index: 2;
+}
+section.WhyGetESAWraps .BiconBx svg,
+section.WhyGetESAWrap .BiconBx img {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+section.WhyGetESAWrap .WhyGetESACol:first-child,
+section.WhyGetESAWrap .WhyGetESACol:last-child {
+  padding-top: 108px;
+}
+section.WhyGetESAWrap .wgconBx img {
+  width: 165px;
+}
+section.WhyGetESAWrap .wgconBxHeading {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--HeadingColor);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+section.WhyGetESAWrap .wgconBxPara {
+  font-size: var(--FontSize);
+  margin-bottom: 0;
+  line-height: calc(var(--FontSizeHeading) - 2px);
+}
+section.WhyGetESAWrap .btmimg {
+  margin-bottom: -60px;
+}
+@media screen and (max-width: 1180px) {
+  section.WhyGetESAWrap .WhyGetESACol:first-child,
+  section.WhyGetESAWrap .WhyGetESACol:last-child {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width:912px) {
+section.WhyGetESAWrap {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.WhyGetESAWrap {
+    padding: 40px 0;
+  }
+  section.WhyGetESAWrap .h2 {
+    font-size: calc(var(--FontSizeHeading) - 2px);
+    margin: 0;
+  }
+  section.WhyGetESAWrap .WhyGetESACol:first-child,
+  section.WhyGetESAWrap .WhyGetESACol:last-child {
+    padding-top: 33px;
+  }
+  section.WhyGetESAWrap .wgconBx img {
+    width: 121px;
+    margin-bottom: 10px;
+  }
+  section.WhyGetESAWrap .wgconBxHeading {
+    font-size: 19px;
+  }
+  section.WhyGetESAWrap p {
+    font-size: 15px;
+  }
+  section.WhyGetESAWrap .wgconBxPara {
+    font-size: 15px;
+  }
+  section.WhyGetESAWrap .WhyGetESACol:last-child {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 540px) {
+  section.WhyGetESAWrap .h2 {
+    font-size: 20px;
+  }
+  section.WhyGetESAWrap .wgconBxHeading {
+    color: #464646;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 414px) {
+section.WhyGetESAWrap .h2 {
+    font-size: 20px;
+  }
+section.WhyGetESAWrap .wgconBxHeading {
+    color: #464646;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 280px) {
+section.WhyGetESAWrap .h2 {
+    font-size: 20px;
+  }
+section.WhyGetESAWrap .wgconBxHeading {
+  color: #464646;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+}
+@media only screen and (min-device-width: 1400px) {
+}

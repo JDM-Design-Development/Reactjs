@@ -1,0 +1,401 @@
+:root {
+  --ParagraphColor: #5e5e5e;
+  --HeadingColor: #404040;
+  --WhiteColor: #ffffff;
+  --BlackColor: rgba(0, 0, 0, 0);
+  --TealColorLight: #0dbf92;
+  --TealColorDark: #118366;
+  --fullwidth: 100%;
+  --fullvh: 100vh;
+  --fullvw: 100vw;
+  --font: "Montserrat", sans-serif;
+  --LineHeight: 30px;
+  --FontWeightFull: 900;
+  --SliderPadding: 60px;
+  --SectionBcolorFirst: #ffffff;
+  --SectionBcolorSecond: #f6fbfd;
+  --FontSize: 16px;
+  --FontSizeHeading: 28px;
+  --FontSizeButton: 14px;
+}
+*,
+.font-loader,
+body,
+html {
+  font-family: var(--font);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+}
+::-moz-selection {
+  background-color: var(--TealColorLight);
+  color: var(--WhiteColor);
+}
+::selection {
+  background-color: var(--TealColorLight);
+  color: var(--WhiteColor);
+}
+::-moz-selection {
+  background-color: var(--TealColorLight);
+  color: var(--WhiteColor);
+}
+a {
+  -webkit-transition: background-color 0.8s ease;
+  -o-transition: background-color 0.8s ease;
+  transition: background-color 0.8s ease;
+  -webkit-transition: color 0.8s ease;
+  -o-transition: color 0.8s ease;
+  transition: color 0.8s ease;
+}
+p {
+  line-height: var(--LineHeight) !important;
+  font-size: var(--FontSize);
+}
+
+img.fluid {
+  max-width: var(--fullwidth);
+}
+img {
+  max-width: var(--fullwidth); /* or max-width: 100%; */
+  height: auto;
+}
+
+section.TopInnerBannerWrap .h2 {
+  color: var(--WhiteColor);
+}
+section.TopInnerBannerWrap:before {
+  content: "";
+  background: rgb(0 0 0 / 42%) !important;
+}
+section.TopImgBannerWrap.shop {
+  height: 250px;
+}
+
+section.TopImgBannerWrap.shop .h2 {
+  font-weight: calc(var(--FontWeightFull) - 300);
+  font-size: 36px;
+}
+section.TopInnerBannerWrap.privacy-trust {
+  background-size: cover;
+}
+section.TopInnerBannerWrap.terms-of-use {
+  background-size: cover;
+}
+section.TopInnerBannerWrap.privacy-policy {
+  background-size: cover;
+}
+section.TopInnerBannerWrap.refund-policy {
+  background-size: cover;
+}
+section.TopInnerBannerWrap.disclaimer {
+  background-size: cover;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+a#basic-nav-dropdown {
+  pointer-events: none;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.loader div {
+  width: 8vmax;
+  height: 8vmax;
+  border-right: 4px solid #ffffff;
+  border-radius: 100%;
+  animation: spinRight 800ms linear infinite;
+}
+.loader div:before,
+.loader div:after {
+  content: "";
+  width: 6vmax;
+  height: 6vmax;
+  display: block;
+  position: absolute;
+  top: calc(50% - 3vmax);
+  left: calc(50% - 3vmax);
+  border-left: 3px solid #ffffff;
+  border-radius: 100%;
+  animation: spinLeft 800ms linear infinite;
+}
+
+.loader div:after {
+  width: 4vmax;
+  height: 4vmax;
+  top: calc(50% - 2vmax);
+  left: calc(50% - 2vmax);
+  border: 0;
+  border-right: 2px solid #ffffff;
+  animation: none;
+}
+.nxtprvbtn button {
+display: inline-block;
+text-transform: uppercase;
+padding: 0 22px;
+line-height: 45px;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2px;
+cursor: pointer;
+background-color: #333;
+color: var(--WhiteColor) !important;
+text-decoration: none;
+transition: all 0.2s ease-in-out 0s;
+border:none;
+border-radius: 50px;
+}
+@keyframes spinLeft {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes spinRight {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+div#popup-root p {
+  font-weight: 500;
+  font-style: normal;
+  color: #6c6d6d;
+  line-height: inherit;
+  font-size: calc(var(--FontSize) - 1px);
+  text-transform: inherit;
+  margin-top: 8px;
+}
+
+div#popup-root li {
+  font-weight: 500;
+  font-style: normal;
+  color: #6c6d6d;
+  line-height: inherit;
+  font-size: calc(var(--FontSize) - 1px);
+  text-transform: inherit;
+  margin-top: 8px;
+}
+
+div#popup-root h1 {
+  font-size: calc(var(--FontSize) + 7px) !important;
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+
+div#popup-root h2 {
+  font-size: calc(var(--FontSize) + 6px) !important;
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+
+div#popup-root h3 {
+  font-size: calc(var(--FontSize) + 5px) !important;
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+
+div#popup-root h4 {
+  font-size: calc(var(--FontSize) + 4px) !important;
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+
+div#popup-root h5 {
+  font-size: calc(var(--FontSize) + 3px) !important;
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+div#popup-root .popup-content {
+  max-height: 72vh;
+  overflow-y: scroll;
+  overflow-x: clip;
+}
+div#popup-root .modal>.close {
+  right: 5px;
+  top: 6px; 
+}
+.how-it-works span.react-loading-skeleton {
+  background: rgb(114 120 127 / 20%) !important;
+}
+.how-it-works .react-loading-skeleton::after {
+  background: rgb(255 255 255 / 18%) !important;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #3bb58a !important;
+  border-color: #46c597 !important;
+}
+.FooterFormWrap .btn-primary {
+  color: #fff;
+  background-color: #3bb58a !important;
+  border-color: #46c597 !important;
+}
+@media screen and (max-width: 912px) {
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog:before {
+    content: '';
+    background: rgb(0 0 0 / 32%) !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog .h2 {
+    font-size: 20px;
+    color: #fff !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.btmtxtdiv {
+    padding: 40px 0;
+    background-color: var(--WhiteColor);
+  }
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-cat:before {
+    content: '';
+    background: #000000a6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+  section.TopImgBannerWrap.emotional-support-dog .h2 {
+    width: calc(var(--fullwidth) - 50%);
+  }
+  section.TopImgBannerWrap.emotional-support-dog {
+    background-position: bottom;
+  }
+  section.TopInnerBannerWrap.how-it-works {
+    background-size: cover;
+    background-position: -100%;
+    padding: 40px 20px;
+  }
+  section.TopImgBannerWrap.our-clinic {
+    background-size: cover;
+    background-position: -100%;
+    padding: 40px 20px;
+  }
+  section.TopImgBannerWrap.how-to-get-esa-letter {
+    background-size: cover;
+    background-position: -100%;
+    padding: 40px 220px 40px 20px;
+  }
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog {
+    height: 226px !important;
+    padding: 28px 0 !important;
+  }
+  
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog:before {
+    content: '';
+    background: rgb(0 0 0 / 61%) !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog .h2 {
+    font-size: 20px;
+    color: rgb(246, 246, 246) !important;
+        padding-right: 23px !important;
+  }
+  
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog a {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+ 
+}
+@media screen and (max-width: 414px) {
+  section.TopImgBannerWrap.how-to-get-esa-letter {
+    background-size: cover;
+    background-position: 0px;
+    padding: 40px 77px 40px 20px;
+  }
+  section.TopInnerBannerWrap.how-it-works {
+    background-size: cover;
+    background-position: -72%;
+    padding: 40px 20px;
+  }
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog {
+    height: 226px !important;
+    padding: 28px 0 !important;
+  }
+  
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog:before {
+    content: '';
+    background: rgb(0 0 0 / 61%) !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog .h2 {
+    font-size: 20px;
+    color: rgb(246, 246, 246) !important;
+  }
+  
+  section.TopInnerBannerWrap.how-to-register-an-emotional-support-dog a {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 360px) {
+  section.TopImgBannerWrap.how-to-get-esa-letter {
+    background-size: cover;
+    background-position: -11px;
+    padding: 40px 97px 40px 20px;
+  }
+  section.TopInnerBannerWrap.how-it-works {
+    background-size: cover;
+    background-position: -52%;
+    padding: 40px 20px;
+  }
+  
+}
+@media screen and (max-width: 320px) {
+  section.TopImgBannerWrap.how-to-get-esa-letter {
+    background-size: cover;
+    background-position: -131px;
+    padding: 40px 77px 40px 20px;
+  }
+  section.TopInnerBannerWrap.how-it-works {
+    background-size: cover;
+    background-position: -52%;
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  section.TopImgBannerWrap.how-to-get-esa-letter {
+    background-size: cover;
+    background-position: -41px;
+    padding: 40px 77px 40px 20px;
+  }
+}

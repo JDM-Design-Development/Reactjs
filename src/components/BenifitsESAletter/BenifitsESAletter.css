@@ -1,0 +1,281 @@
+section.Benifits {
+  text-align: center;
+  padding: 60px 0;
+}
+section.Benifits p {
+  margin-bottom: 45px;
+  color: var(--ParagraphColor);
+  font-weight: 500;
+}
+section.Benifits .BenifitsWrap {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+section.Benifits .BiconBx {
+  width: 120px;
+  height: 120px;
+  background: var(--WhiteColor);
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  position: relative;
+  border: 2px solid var(--WhiteColor);
+  -webkit-box-shadow: 0px 0px 17px rgb(204 204 204 / 49%);
+  box-shadow: 0px 0px 17px rgb(204 204 204 / 49%);
+  z-index: 2;
+}
+section.Benifits .BiconBx svg,
+section.Benifits .BiconBx img {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+section.Benifits .BiconBx:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed rgba(255, 113, 91, 0.46);
+  border: 2px dashed rgba(13, 191, 146, 0.41);
+  background-color: var(--WhiteColor);
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+section.Benifits .BiconBx img:hover,
+section.Benifits .BiconBx img:focus,
+section.Benifits .BiconBx img:active {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  -o-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+section.Benifits .h2.BiconBxHeading {
+  color: #464646;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+section.Benifits .BiconBxPara {
+  color: #585858;
+  padding: 0 53px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+section.Benifits .h2 {
+  font-weight: 600;
+  font-size: var(--FontSizeHeading);
+  color: var(--HeadingColor);
+}
+section.Benifits .benifitsiconwrp:last-child .BenifitsWrap .BiconBxPara p,
+section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap .BiconBxPara p,
+section.Benifits .benifitsiconwrp:nth-last-child(3) .BenifitsWrap .BiconBxPara p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+section.Benifits .benifitsiconwrp:last-child .BenifitsWrap,
+section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap,
+section.Benifits .benifitsiconwrp:nth-last-child(3) .BenifitsWrap {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+@media screen and (max-width: 1180px) {
+  section.Benifits .BiconBxPara {
+    padding: 0 25px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section.Benifits {
+    padding: 40px 0;
+  }
+  section.Benifits .BiconBxPara {
+    color: #585858;
+    padding: 0 12px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap,
+  section.Benifits .benifitsiconwrp:last-child .BenifitsWrap,
+  section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap .BiconBxPara p,
+  section.Benifits .benifitsiconwrp:last-child .BenifitsWrap .BiconBxPara p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  section.Benifits p {
+    margin-bottom: 10px;
+  }
+    section.Benifits p.BiconBxPara {
+      padding: 0;
+    }
+}
+@media screen and (max-width: 912px) {
+section.Benifits {
+    padding: 40px 0;
+  }
+  section.Benifits .BiconBxPara {
+    color: #585858;
+    padding: 0 12px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap,
+  section.Benifits .benifitsiconwrp:last-child .BenifitsWrap,
+    section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap .BiconBxPara p,
+    section.Benifits .benifitsiconwrp:last-child .BenifitsWrap .BiconBxPara p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.Benifits .BiconBxPara {
+    padding: 0 25px;
+  }
+  section.Benifits .BenifitsWrap {
+    margin-bottom: var(--FontSize);
+    -webkit-box-shadow: 0px 0px 8px #ded7d7;
+    box-shadow: 0px 0px 8px #ded7d7; 
+    padding: 23px 15px;
+  }
+  section.Benifits .row .col-md-4.col-12:last-child .BenifitsWrap {
+    margin-bottom: 0;
+  }
+  section.Benifits .h2 { 
+    margin: 0;
+    font-size: 20px; 
+  }
+  section.Benifits p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 540px) {
+  section.Benifits .h2 {
+    font-size: 20px;
+  }
+
+  section.Benifits {
+    padding: 40px 0;
+  }
+
+  section.Benifits p {
+    margin-bottom: 20px;
+  }
+
+  section.Benifits .BiconBx {
+    width: 100px;
+    height: 100px;
+  }
+
+  section.Benifits .BiconBxPara {
+    padding: 0 0px;
+  }
+
+  section.Benifits .BiconBxPara p {
+    margin-bottom: 0;
+  }
+
+  section.Benifits .h2.BiconBxHeading {
+    font-size: 1.2rem;
+  }
+section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap {
+  padding: 23px 15px !important;
+  margin-bottom: 15px !important;
+}
+section.Benifits .benifitsiconwrp:last-child .BenifitsWrap {
+  padding: 23px 15px !important;
+  margin-bottom: 0 !important;
+}
+}
+@media screen and (max-width: 414px) {
+  section.Benifits .h2 {
+    font-size: 20px;
+  }
+
+  section.Benifits {
+    padding: 40px 0;
+  }
+
+  section.Benifits p {
+    margin-bottom: 20px;
+  }
+
+  section.Benifits .BiconBx {
+    width: 100px;
+    height: 100px;
+  }
+
+  section.Benifits .BiconBxPara {
+    padding: 0 0px;
+  }
+
+  section.Benifits .BiconBxPara p {
+    margin-bottom: 0;
+  }
+section.Benifits .h2.BiconBxHeading {
+  font-size: 1.1rem;
+}
+section.Benifits .benifitsiconwrp:last-child .BenifitsWrap,
+section.Benifits .benifitsiconwrp:nth-last-child(2) .BenifitsWrap,
+section.Benifits .benifitsiconwrp:nth-last-child(3) .BenifitsWrap {
+  margin-bottom: var(--FontSize) !important;
+  padding: 23px 15px !important;
+}
+section.Benifits .benifitsiconwrp:last-child .BenifitsWrap{
+  margin-bottom: 0 !important; 
+}
+}
+
+@media screen and (max-width: 280px) {
+  section.Benifits .h2 {
+    font-size: 20px;
+  }
+  section.Benifits {
+    padding: 40px 0;
+  }
+  section.Benifits p {
+    margin-bottom: 20px;
+  }
+  section.Benifits .BiconBx {
+    width: 100px;
+    height: 100px;
+  }
+  section.Benifits .BiconBxPara {
+    padding: 0 0px;
+  }
+  section.Benifits .BiconBxPara p {
+    margin-bottom: 0;
+  }
+  section.Benifits .h2.BiconBxHeading {
+    font-size: 1.2rem;
+  }
+
+}
+@media only screen and (min-device-width: 1400px) {
+}
